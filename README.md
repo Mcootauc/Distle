@@ -1,7 +1,7 @@
 # Distle
 By Mitchell Cootauco
 
-**CMSI 2130** Algorithms & Analysis, Spring 2022
+**CMSI 2130** Algorithms & Analysis, March 2022
 
 Distle is a java program where you play Wordle, but the length of the word you're trying to guess is random. After each guess, the program tells you the edit distance between the random word and the guess word and the transformations needed to guess the random word. The transformations include, Insertion, Deletion, Replacement, and Transposition. This program takes the random word from a dictionary text and has the option to let an AI guess the word instead of the user. 
 
