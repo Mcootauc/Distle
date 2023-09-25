@@ -1,5 +1,5 @@
 # Distle (March 2022)
-Distle is a Java program where you play Wordle, but the length of the word you're trying to guess is random. After each guess, the program tells you the edit distance between the random word and the guess word and the transformations needed to guess the random word. The transformations include Insertion, Deletion, Replacement, and Transposition. This program takes a random word from a dictionary text the built-in AI attempts to guess the word.
+This is Distle. A Java program where you play Wordle, but the length of the word you're trying to guess is random. After each guess, the program tells you the edit distance between the random word and the guess word and the transformations needed to guess the random word. The transformations include Insertion, Deletion, Replacement, and Transposition. This program takes a random word from a dictionary text the built-in AI attempts to guess the word.
 
 ![DistleConsoleOutput](https://github.com/Mcootauc/Distle/assets/73667103/32c49f08-b01a-4095-9192-c897e686f495)
 
