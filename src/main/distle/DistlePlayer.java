@@ -9,18 +9,12 @@ import java.util.*;
  */
 public class DistlePlayer {
 	Set<String> theDict;
-	
-    // [!] TODO: Any fields you want here!
     
     /**
      * Constructs a new DistlePlayer.
-     * [!] You MAY NOT change this signature, meaning it may not accept any arguments.
-     * Still, you can use this constructor to initialize any fields that need to be,
-     * though you may prefer to do this in the {@link #startNewGame(Set<String> dictionary, int maxGuesses)}
-     * method.
      */
     public DistlePlayer () {
-        // [!] TODO: Any initialization of fields you want here (can also leave empty)
+
     }
     
     /**
@@ -55,9 +49,6 @@ public class DistlePlayer {
      *   <li>editDistance, the numerical edit distance between the guess and secret word</li>
      *   <li>transforms, a list of top-down transforms needed to turn the guess into the secret word</li>
      * </ul>
-     * [!] This method should be used by the DistlePlayer to update its fields and plan for
-     * the next guess to be made.
-     * 
      * @param guess The last, incorrect, guess made by the DistlePlayer
      * @param editDistance Numerical distance between the guess and the secret word
      * @param transforms List of top-down transforms needed to turn the guess into the secret word
